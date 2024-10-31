@@ -30,7 +30,7 @@ function SobreMi() {
             <i class="fs-3 bi bi-linkedin text-primary"></i>
           </a>
           <a href="./document/curriculumVitae.pdf" target="_blank">
-            <i class="fs-3 bi bi-filetype-csv text-success"></i>
+            <i class="fs-3 bi bi-file-earmark-person text-success"></i>
           </a>
           <a
             href="https://app.aluracursos.com/emprega-one/profile/castromaradiaga0"
