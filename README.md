@@ -24,3 +24,7 @@ Version 1.0.1
 
 - [Linkedin](https://www.linkedin.com/in/edwin-castro-13a763272/)
 
+
+## 🔗 Links
+[![despliefue en VERCEL](https://img.shields.io/badge/Portafolio-000?style=for-the-badge&logo=ko-fi&logoColor=gold)](https://portafolio-frontend-rust.vercel.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=gold)](https://www.linkedin.com/in/edwin-castro-13a763272/)
