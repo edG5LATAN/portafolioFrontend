@@ -29,12 +29,12 @@ function Proyectos() {
       catalogo: "https://newcalculadorasimple.netlify.app/",
     },
     {
-      img: "./img/trabajos/comedor_img.png",
+      img: "https://i.pinimg.com/originals/f7/1f/eb/f71feb2181b9c5b123afd89efa0ceb06.png",
       nombre: "pagina de comedor",
       detalles:
         "Pagina web de comedor con opcion de carrito de compras creado en React y Express",
       demo: "https://www.youtube.com/watch?v=SZdvNte-7wQ",
-      catalogo: "https://edg5latan.github.io/proyecto_comedor/",
+      catalogo: "https://comedor.netlify.app/",
     },
     {
       img: "./img/trabajos/encriptarImg.png",
@@ -45,20 +45,20 @@ function Proyectos() {
       catalogo: "https://edg5latan.github.io/EncriptadorG5/",
     },
     {
-      img: "./img/trabajos/imagenApiWather.png",
-      nombre: "aplicaciond de clima",
+      img: "https://i.pinimg.com/originals/08/ec/85/08ec858075dd7dd53888d6c935b26eac.jpg",
+      nombre: "aplicaciond de clima ",
       detalles:
-        "Pagina web de informacion climatica por  regiones de tu pais con opcion de tiempo de hasta 7 dias",
+        "Pagina web de informacion climatica v1.0.1 por  regiones de tu pais con opcion de tiempo de hasta 7 dias",
       demo: "https://www.youtube.com/watch?v=-WmSWJYzfgs&feature=youtu.be",
-      catalogo: "https://weather-app-sigma-gott-85.vercel.app/",
+      catalogo: "https://new-app-clima-v1-0-1.vercel.app/",
     },
     {
-      img: "./img/trabajos/imagenChuckNorris.png",
-      nombre: "juego de chuck norris",
+      img: "https://i.pinimg.com/originals/87/64/e6/8764e64965d03239eb8d73286ab5ba62.png",
+      nombre: "Pagina Web",
       detalles:
-        "Proyecto de Juego de chiste de chuck norris donde podras reir de las ocurrencias de cada uno",
-      demo: "https://www.youtube.com/watch?v=hGdKBAx9qvE&feature=youtu.be",
-      catalogo: "https://chuck-norrys-joks.vercel.app/",
+        "Proyecto de pagina web de informacion de reparaciones telefonicas y ventas de accesorios telefonia y tecnologia",
+      demo: "https://edtecnology.com/",
+      catalogo: "https://edtecnology.com/",
     },
     {
       img: "./img/trabajos/marvelPortada.png",
@@ -69,12 +69,12 @@ function Proyectos() {
       catalogo: "https://marvel-proyect-api.vercel.app/",
     },
     {
-      img: "./img/trabajos/mentalista.png",
-      nombre: "juego de mentalista",
+      img: "https://i.pinimg.com/originals/1f/67/9b/1f679b074f0fbb94e1531362dce7b730.png",
+      nombre: "Pagina de Lavanderia",
       detalles:
-        "Divertido Juego de adivinanzas donde podras jugar on line con tus amigos adivinando cada respuesta",
-      demo: "https://edg5latan.github.io/juegoAdivinanzaAlura/",
-      catalogo: "https://edg5latan.github.io/juegoAdivinanzaAlura/",
+        "Pagina de lavanderia v1.0.1 ya que la version anterior le hicimos un cambio de imagen y detalles",
+      demo: "https://api-lavanderiav1-0-1.vercel.app/",
+      catalogo: "https://api-lavanderiav1-0-1.vercel.app/",
     },
   ]);
   return (
