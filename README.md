@@ -1,8 +1,9 @@
 
 ## PORTAFOLIO REACT FRONTEND
 
--Portafolio nuevo de React para el area de forntend v1.0.1 donde podras ver algunos de mis proyectos echos en mi trayectoria como desarrollador algunos de ellos  son solo machotes de como se verian
+-Portafolio nuevo de React para el area de Frontend v1.0.1 donde podras ver algunos de mis proyectos echos en mi trayectoria como desarrollador algunos de ellos son solo podremos ver su video de creacion ya que estan en uso por cliente en este caso seria el de lavanderia y uno en linea www.EDTecnology.com.
 
+![Logo](https://i.pinimg.com/originals/3b/78/f6/3b78f6e7ebabe7d8b9f8c54a8ede64b8.png)
 
 
 ## Documentation
