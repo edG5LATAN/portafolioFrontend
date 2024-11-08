@@ -3,6 +3,13 @@ import "./SobreMi.css";
 import { Link } from "react-router-dom";
 
 function SobreMi() {
+var tooltipTriggerList = [].slice.call(
+    document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  );
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
+  
   return (
     <div className="container sobremi_contenedor">
       <div className="sobremi_contenedor_info">
@@ -20,21 +27,36 @@ function SobreMi() {
           <a
             href="https://github.com/edG5LATAN?tab=repositories"
             target="_blank"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="GitHub"
           >
             <i class="fs-3 bi bi-github"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/edwin-castro-13a763272/recent-activity/all/"
             target="_blank"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Linkedin"
           >
             <i class="fs-3 bi bi-linkedin text-primary"></i>
           </a>
-          <a href="./document/curriculumVitae.pdf" target="_blank">
+          <a
+            href="./document/curriculumVitae.pdf"
+            target="_blank"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Curriculum"
+          >
             <i class="fs-3 bi bi-file-earmark-person text-success"></i>
           </a>
           <a
             href="https://app.aluracursos.com/emprega-one/profile/castromaradiaga0"
             target="_blank"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Certificados"
           >
             <i class="fs-3 bi bi-mortarboard-fill"></i>
           </a>
