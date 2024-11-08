@@ -7,23 +7,23 @@ function Proyectos() {
   const [data, setdata] = useState([
     {
       img: "./img/trabajos/aluraflixImg.png",
-      nombre: "alura flix",
+      nombre: "Alura Flix",
       detalles:
-        "Proyecto alura flix donde podras guardar todos tus videos favoritos creado en React y Express NodeJS ",
+        "Proyecto aluraFlix donde podras guardar todos tus videos favoritos, creado en React y Express NodeJS ",
       demo: "https://alura-flix-videoestudio-cc26e8.netlify.app/",
       catalogo: "https://www.youtube.com/watch?v=bmI1C-HTBXk",
     },
     {
       img: "./img/trabajos/aluraGeek.png",
-      nombre: "alura geek",
+      nombre: "Alura Geek",
       detalles:
-        "Api de marvel implementada para busqueda de personajes creado en React y Express de NodeJs",
+        "Proyecto de tienda en linea de venta de video juegos para distintas consolas, creado en HTML, CSS, JS, Express",
       demo: "https://www.youtube.com/watch?v=RS3zDOXRXd8",
       catalogo: "https://edg5latan.github.io/AluraGeek/",
     },
     {
       img: "./img/trabajos/calculadora.png",
-      nombre: "calculadora",
+      nombre: "Calculadora",
       detalles:
         "Proyecto de calculadora con funcionalidad y creado con HTML,  JS, CSS",
       demo: "https://newcalculadorasimple.netlify.app/",
@@ -31,7 +31,7 @@ function Proyectos() {
     },
     {
       img: "https://i.pinimg.com/originals/f7/1f/eb/f71feb2181b9c5b123afd89efa0ceb06.png",
-      nombre: "pagina de comedor",
+      nombre: "pagina de Comedor",
       detalles:
         "Pagina web de comedor con opcion de carrito de compras creado en React y Express",
       demo: "https://www.youtube.com/watch?v=SZdvNte-7wQ",
@@ -39,7 +39,7 @@ function Proyectos() {
     },
     {
       img: "./img/trabajos/encriptarImg.png",
-      nombre: "encriptador de mensajes",
+      nombre: "Encriptador de Mensajes",
       detalles:
         "Encriptador de mensajes con opcion de compartir y enviar notas encriptadas",
       demo: "https://www.youtube.com/watch?v=NwyPIM1q0-k",
@@ -47,9 +47,9 @@ function Proyectos() {
     },
     {
       img: "https://i.pinimg.com/originals/08/ec/85/08ec858075dd7dd53888d6c935b26eac.jpg",
-      nombre: "aplicaciond de clima ",
+      nombre: "Aplicaciond de Clima ",
       detalles:
-        "Pagina web de informacion climatica v1.0.1 por  regiones de tu pais con opcion de tiempo de hasta 7 dias",
+        "Pagina web climatica v1.0.1 por  regiones de tu pais con opcion de tiempo de hasta 7 dias",
       demo: "https://www.youtube.com/watch?v=-WmSWJYzfgs&feature=youtu.be",
       catalogo: "https://new-app-clima-v1-0-1.vercel.app/",
     },
@@ -63,7 +63,7 @@ function Proyectos() {
     },
     {
       img: "./img/trabajos/marvelPortada.png",
-      nombre: "Api de marvel",
+      nombre: "Api de Marvel",
       detalles:
         "Pagina de informacion de api de Marvel con informacion detallada de cada personaje creado en React",
       demo: "https://www.youtube.com/watch?v=WAq5MRVzp0g",
