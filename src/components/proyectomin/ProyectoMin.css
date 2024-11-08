@@ -1,0 +1,17 @@
+.proyecto_min_contenedor{
+  width: 100%;
+  margin-top: 8px;
+}
+.proyecto_min_contenedor_img{
+  overflow: hidden;
+  height: 300px;
+}
+.proyecto_min_contenedor_img img{
+  width: 100%;
+  height: 100%;
+  transition: 2s ease-in-out;
+}
+.proyecto_min_contenedor_img  img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}

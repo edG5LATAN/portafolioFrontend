@@ -8,3 +8,8 @@
 .aserca_de_mi_contenedor{
   width: 70%;
 }
+@media (max-width:400px) {
+  .aserca_de_mi_contenedor{
+    width: 90%;
+  }
+}

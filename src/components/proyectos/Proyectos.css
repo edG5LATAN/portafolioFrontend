@@ -1,37 +1,55 @@
-.proyectos_contenedor{
+.proyectos_contenedor {
   min-height: 100vh;
   display: flex;
   justify-content: center;
 }
-.proyectos_img{
+
+.proyectos_img {
   height: 100vh;
   width: 100%;
   border-radius: 10px;
 }
-.carousel{
+
+.carousel {
   width: 90%;
 }
-.caroucel_contrl{
+
+.caroucel_contrl {
   background-color: rgb(238, 16, 16);
   border-radius: 50%;
   padding: 10px;
   font-size: 50px;
 }
-.carousel-caption{
+
+.carousel-caption {
   background-color: rgb(13, 17, 58);
   border-radius: 15px;
 }
-@media (max-width:400px) {
 
-  .carousel{
+.proyectos_escondidos {
+  display: none;
+}
+
+@media (max-width:400px) {
+  .proyectos_contenedor {
+    display: none;
+  }
+
+  .proyectos_escondidos {
+    display: unset;
+  }
+
+  .carousel {
     background-color: rgb(7, 7, 78);
     height: 80vh;
   }
-  .proyectos_img{
+
+  .proyectos_img {
     height: 80vh;
     width: 100%;
   }
-  .carousel{
+
+  .carousel {
     width: 100%;
   }
 }

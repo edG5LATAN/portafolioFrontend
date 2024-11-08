@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Proyectos.css";
 import Botones from "../proyectoBotones/Botones";
+import ProyectoMin from "../proyectomin/ProyectoMin";
 
 function Proyectos() {
   const [data, setdata] = useState([
@@ -78,6 +79,7 @@ function Proyectos() {
     },
   ]);
   return (
+    <>
     <div className="container pt-3 pb-3 proyectos_contenedor">
       <div
         id="carouselExampleCaptions"
@@ -242,6 +244,14 @@ function Proyectos() {
         </button>
       </div>
     </div>
+    <div className="proyectos_escondidos container mb-2 ">
+      {
+        data.map(res=>{
+          return<ProyectoMin info={res} />
+        })
+        }
+    </div>
+    </>
   );
 }
 

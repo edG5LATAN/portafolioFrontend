@@ -17,6 +17,17 @@
 }
 @media (max-width:400px) {
   .header_contenedor{
+    overflow: unset;
+    height: 100px;
+    position: relative;
+  }
+  .header_contenedor_img{
+    position: absolute;
+    width: 100px;
+    top: -28%;
+    left: 26%;
+  }
+  .header_contenedor{
     padding: 0 0 3px 0;
     flex-direction: column-reverse;
     margin-bottom: 10px;
