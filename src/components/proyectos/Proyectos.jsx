@@ -9,15 +9,23 @@ function Proyectos() {
       img: "./img/trabajos/aluraflixImg.png",
       nombre: "Alura Flix",
       detalles:
-        "Proyecto aluraFlix donde podras guardar todos tus videos favoritos, creado en React y Express NodeJS ",
+        "Proyecto aluraFlix donde podras guardar todos tus videos favoritos, creado en React y Express NodeJS.",
       demo: "https://alura-flix-videoestudio-cc26e8.netlify.app/",
       catalogo: "https://www.youtube.com/watch?v=bmI1C-HTBXk",
+    },
+    {
+      img:"https://i.pinimg.com/originals/c5/dd/c2/c5ddc2e3b83e80fc0703061553819d59.png",
+      nombre: "Taller de Reparacion",
+      detalles:
+        "Proyecto de uno de mis primeros trabajos ahora ya actualizado con la version V1.0.1 donde implementamos mas informacion."
+      demo:"https://tecnicare-taller-v1-0-1.vercel.app/",
+      catalago:"https://tecnicare-taller-v1-0-1.vercel.app/",
     },
     {
       img: "./img/trabajos/aluraGeek.png",
       nombre: "Alura Geek",
       detalles:
-        "Proyecto de tienda en linea de venta de video juegos para distintas consolas, creado en HTML, CSS, JS, Express",
+        "Proyecto de tienda en linea de venta de video juegos para distintas consolas, creado en HTML, CSS, JS, Express.",
       demo: "https://www.youtube.com/watch?v=RS3zDOXRXd8",
       catalogo: "https://edg5latan.github.io/AluraGeek/",
     },
@@ -25,7 +33,7 @@ function Proyectos() {
       img: "./img/trabajos/calculadora.png",
       nombre: "Calculadora",
       detalles:
-        "Proyecto de calculadora con funcionalidad y creado con HTML,  JS, CSS",
+        "Proyecto de calculadora con funcionalidad y creado con HTML,  JS, CSS.",
       demo: "https://newcalculadorasimple.netlify.app/",
       catalogo: "https://newcalculadorasimple.netlify.app/",
     },
@@ -33,7 +41,7 @@ function Proyectos() {
       img: "https://i.pinimg.com/originals/f7/1f/eb/f71feb2181b9c5b123afd89efa0ceb06.png",
       nombre: "pagina de Comedor",
       detalles:
-        "Pagina web de comedor con opcion de carrito de compras creado en React y Express",
+        "Pagina web de comedor con opcion de carrito de compras creado en React y Express.",
       demo: "https://www.youtube.com/watch?v=SZdvNte-7wQ",
       catalogo: "https://comedor.netlify.app/",
     },
@@ -41,7 +49,7 @@ function Proyectos() {
       img: "./img/trabajos/encriptarImg.png",
       nombre: "Encriptador de Mensajes",
       detalles:
-        "Encriptador de mensajes con opcion de compartir y enviar notas encriptadas",
+        "Encriptador de mensajes con opcion de compartir y enviar notas encriptadas.",
       demo: "https://www.youtube.com/watch?v=NwyPIM1q0-k",
       catalogo: "https://edg5latan.github.io/EncriptadorG5/",
     },
@@ -49,7 +57,7 @@ function Proyectos() {
       img: "https://i.pinimg.com/originals/08/ec/85/08ec858075dd7dd53888d6c935b26eac.jpg",
       nombre: "Aplicaciond de Clima ",
       detalles:
-        "Pagina web climatica v1.0.1 por  regiones de tu pais con opcion de tiempo de hasta 7 dias",
+        "Pagina web climatica v1.0.1 por  regiones de tu pais con opcion de tiempo de hasta 7 dias.",
       demo: "https://www.youtube.com/watch?v=-WmSWJYzfgs&feature=youtu.be",
       catalogo: "https://new-app-clima-v1-0-1.vercel.app/",
     },
@@ -57,7 +65,7 @@ function Proyectos() {
       img: "https://i.pinimg.com/originals/87/64/e6/8764e64965d03239eb8d73286ab5ba62.png",
       nombre: "Pagina Web",
       detalles:
-        "Proyecto de pagina web de informacion de reparaciones telefonicas y ventas de accesorios telefonia y tecnologia",
+        "Proyecto de pagina web de informacion de reparaciones telefonicas y ventas de accesorios telefonia y tecnologia.",
       demo: "https://edtecnology.com/",
       catalogo: "https://edtecnology.com/",
     },
@@ -65,7 +73,7 @@ function Proyectos() {
       img: "./img/trabajos/marvelPortada.png",
       nombre: "Api de Marvel",
       detalles:
-        "Pagina de informacion de api de Marvel con informacion detallada de cada personaje creado en React",
+        "Pagina de informacion de api de Marvel con informacion detallada de cada personaje creado en React.",
       demo: "https://www.youtube.com/watch?v=WAq5MRVzp0g",
       catalogo: "https://marvel-proyect-api.vercel.app/",
     },
@@ -73,7 +81,7 @@ function Proyectos() {
       img: "https://i.pinimg.com/originals/1f/67/9b/1f679b074f0fbb94e1531362dce7b730.png",
       nombre: "Pagina de Lavanderia",
       detalles:
-        "Pagina de lavanderia v1.0.1 ya que la version anterior le hicimos un cambio de imagen y detalles",
+        "Pagina de lavanderia v1.0.1 ya que la version anterior le hicimos un cambio de imagen y detalles.",
       demo: "https://api-lavanderiav1-0-1.vercel.app/",
       catalogo: "https://api-lavanderiav1-0-1.vercel.app/",
     },
