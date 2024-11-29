@@ -3,15 +3,20 @@ import "./SobreMi.css";
 import { Link } from "react-router-dom";
 import ReactGA from "react-ga4";
 
+
+
 function SobreMi() {
-  useEffect(() => {
-    ReactGA.initialize("G-RH1T7LNRBT");
-    ReactGA.send({
-      hitType: "pageview",
-      page: window.location.pathname,
-      title: "App.jsx",
+
+  const descarga="descargado"
+
+  const descargasDeCurriculum=()=>{
+    ReactGA.event({
+      category: "descarga de curriculum",
+      action: "descargado",
+      label: descarga,
     });
-  }, []);
+  }
+  
 
   var tooltipTriggerList = [].slice.call(
     document.querySelectorAll('[data-bs-toggle="tooltip"]')
@@ -53,6 +58,7 @@ function SobreMi() {
             <i class="fs-3 bi bi-linkedin text-primary"></i>
           </a>
           <a
+          onClick={descargasDeCurriculum}
             href="./document/curriculumVitae.pdf"
             target="_blank"
             data-bs-toggle="tooltip"

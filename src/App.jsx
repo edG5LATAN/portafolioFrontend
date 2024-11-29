@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Header from './components/header/Header'
@@ -8,10 +8,19 @@ import Proyectos from './components/proyectos/Proyectos'
 import Hobies from './components/hobies/Hobies'
 import Estudios from './components/estudios/Estudios'
 import AsercaDeMi from './components/asercaDeMi/AsercaDeMi'
-
+import ReactGA from "react-ga4";
 
 
 function App() {
+
+  useEffect(() => {
+    ReactGA.initialize("G-RH1T7LNRBT");
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname,
+      title: "App.jsx",
+    });
+  }, []);
 
   return (
     <>
