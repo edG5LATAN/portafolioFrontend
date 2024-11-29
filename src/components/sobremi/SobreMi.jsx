@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./SobreMi.css";
 import { Link } from "react-router-dom";
+import ReactGA from "react-ga4";
 
 function SobreMi() {
-var tooltipTriggerList = [].slice.call(
+  useEffect(() => {
+    ReactGA.initialize("G-RH1T7LNRBT");
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname,
+      title: "App.jsx",
+    });
+  }, []);
+
+  var tooltipTriggerList = [].slice.call(
     document.querySelectorAll('[data-bs-toggle="tooltip"]')
   );
   var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl);
   });
-  
+
   return (
     <div className="container sobremi_contenedor">
       <div className="sobremi_contenedor_info">
