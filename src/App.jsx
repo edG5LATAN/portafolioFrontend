@@ -30,6 +30,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      <PageViewTracker />
       <Header />
        <Routes>
        <Route path='/' element={<SobreMi />} />
