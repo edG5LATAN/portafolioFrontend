@@ -12,18 +12,25 @@ function SobreMi() {
   const descargasDeCurriculum=()=>{
     ReactGA.event({
       category: "descarga de curriculum",
-      action: "descargado",
+      action: "download_portf",
       label: descarga,
     });
   }
   
+  useEffect(()=>{
+    const tooltipTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    );
+    const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+    
+    // limpia los tootltips cuando no se usen
+    return () => {
+      tooltipList.forEach(tooltip => tooltip.dispose());
+    };
+  },[])
 
-  var tooltipTriggerList = [].slice.call(
-    document.querySelectorAll('[data-bs-toggle="tooltip"]')
-  );
-  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl);
-  });
 
   return (
     <div className="container sobremi_contenedor">

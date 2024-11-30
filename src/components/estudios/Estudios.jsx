@@ -37,9 +37,9 @@ function Estudios() {
 
   return (
     <div className="container estudios_contenedor pb-3 pt-3">
-      {data.map((res) => {
+      {data.map((res,index) => {
         return (
-          <div class="card border-info mb-3 estudios_card">
+          <div key={index} class="card border-info mb-3 estudios_card">
             <div class="card-header fw-bold">{res.nombre}</div>
             <img
               src={res.imagen}

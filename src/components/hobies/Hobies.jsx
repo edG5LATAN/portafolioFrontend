@@ -37,8 +37,8 @@ function Hobies() {
     <div className="container hobies_contenedor pt-3 pb-3">
       <div class="d-flex justify-content-around flex-wrap">
       {
-        data.map(res=>{
-          return <div class="card hobies_card">
+        data.map((res,index)=>{
+          return <div key={index} class="card hobies_card">
           <img src={res.imagen} class="card-img-top" alt="estudios img" />
           <div class="card-body">
             <h5 class="card-title">{res.nombre}</h5>

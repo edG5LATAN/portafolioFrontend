@@ -253,8 +253,8 @@ function Proyectos() {
         </div>
       </div>
       <div className="proyectos_escondidos container mb-2 ">
-        {data.map((res) => {
-          return <ProyectoMin info={res} />;
+        {data.map((res, index) => {
+          return <ProyectoMin key={index} info={res} />;
         })}
       </div>
     </>
