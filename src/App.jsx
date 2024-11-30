@@ -24,7 +24,8 @@ const PageViewTracker = () => {
 function App() {
 
   useEffect(() => {
-    ReactGA.initialize("G-RH1T7LNRBT");
+    const apiGoogle=import.meta.env.VITE_GOOGLE_ANALITIC
+    ReactGA.initialize(apiGoogle);
   }, []);
 
   return (
