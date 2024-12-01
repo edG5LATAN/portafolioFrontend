@@ -1,0 +1,15 @@
+.asercademi_contenedor{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.aserca_de_mi_contenedor{
+  width: 70%;
+}
+@media (max-width:400px) {
+  .aserca_de_mi_contenedor{
+    width: 90%;
+  }
+}
