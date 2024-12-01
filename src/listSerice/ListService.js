@@ -83,12 +83,12 @@ export const listProyectos=[
     catalogo: "https://edg5latan.github.io/AluraGeek/",
   },
   {
-    img: "./img/trabajos/calculadora.png",
-    nombre: "Calculadora",
+    img: "https://i.pinimg.com/originals/af/a5/24/afa524c11f8d0d2851998b24a87ecd15.jpg",
+    nombre: "Lavanderia V1.0.1",
     detalles:
-      "Proyecto de calculadora con funcionalidad y creado con HTML,  JS, CSS.",
-    demo: "https://newcalculadorasimple.netlify.app/",
-    catalogo: "https://newcalculadorasimple.netlify.app/",
+      "Proyecto actualizado de la lavanderia de mi primeros proyectos v1.0.1 con React bootstrap ",
+    demo: "https://api-lavanderiav1-0-1.vercel.app/",
+    catalogo: "https://api-lavanderiav1-0-1.vercel.app/",
   },
   {
     img: "https://i.pinimg.com/originals/f7/1f/eb/f71feb2181b9c5b123afd89efa0ceb06.png",
