@@ -65,7 +65,7 @@ function SobreMi() {
           </a>
           <a
           onClick={descargasDeCurriculum}
-            href="./document/curriculumVitae.pdf"
+            href="./document/curriculum-Front-End.pdf"
             target="_blank"
             data-bs-toggle="tooltip"
             data-bs-placement="top"
