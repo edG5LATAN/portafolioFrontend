@@ -77,12 +77,6 @@ function Proyectos() {
               data-bs-slide-to="9"
               aria-label="Slide 10"
             ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="10"
-              aria-label="Slide 11"
-            ></button>
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
@@ -163,6 +157,14 @@ function Proyectos() {
                 <h5>{data[9].nombre}</h5>
                 <p>{data[9].detalles}</p>
                 <Botones demo={data[9].demo} catalogo={data[9].catalogo} />
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img src={data[10].img} className="d-block proyectos_img" alt="..." />
+              <div className="carousel-caption d-none d-md-block">
+                <h5>{data[10].nombre}</h5>
+                <p>{data[10].detalles}</p>
+                <Botones demo={data[10].demo} catalogo={data[10].catalogo} />
               </div>
             </div>
           </div>
