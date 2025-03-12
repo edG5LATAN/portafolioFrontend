@@ -59,6 +59,7 @@ export const listHobies=[
 
 export const listProyectos=[
   {
+    id:1,
     img: "./img/trabajos/aluraflixImg.png",
     nombre: "Alura Flix",
     detalles:
@@ -67,6 +68,7 @@ export const listProyectos=[
     catalogo: "https://www.youtube.com/watch?v=bmI1C-HTBXk",
   },
   {
+    id:2,
     img: "https://i.pinimg.com/originals/c5/dd/c2/c5ddc2e3b83e80fc0703061553819d59.png",
     nombre: "Taller de Reparacion",
     detalles:
@@ -75,6 +77,7 @@ export const listProyectos=[
     catalago: "https://tecnicare-taller-v1-0-1.vercel.app/",
   },
   {
+    id:3,
     img: "./img/trabajos/aluraGeek.png",
     nombre: "Alura Geek",
     detalles:
@@ -83,6 +86,7 @@ export const listProyectos=[
     catalogo: "https://edg5latan.github.io/AluraGeek/",
   },
   {
+    id:4,
     img: "https://i.pinimg.com/originals/af/a5/24/afa524c11f8d0d2851998b24a87ecd15.jpg",
     nombre: "Lavanderia V1.0.1",
     detalles:
@@ -91,6 +95,7 @@ export const listProyectos=[
     catalogo: "https://api-lavanderiav1-0-1.vercel.app/",
   },
   {
+    id:5,
     img: "https://i.pinimg.com/originals/f7/1f/eb/f71feb2181b9c5b123afd89efa0ceb06.png",
     nombre: "pagina de Comedor",
     detalles:
@@ -99,6 +104,7 @@ export const listProyectos=[
     catalogo: "https://comedor.netlify.app/",
   },
   {
+    id:6,
     img: "./img/trabajos/encriptarImg.png",
     nombre: "Encriptador de Mensajes",
     detalles:
@@ -107,6 +113,7 @@ export const listProyectos=[
     catalogo: "https://edg5latan.github.io/EncriptadorG5/",
   },
   {
+    id:7,
     img: "https://i.pinimg.com/originals/08/ec/85/08ec858075dd7dd53888d6c935b26eac.jpg",
     nombre: "Aplicaciond de Clima ",
     detalles:
@@ -115,6 +122,7 @@ export const listProyectos=[
     catalogo: "https://new-app-clima-v1-0-1.vercel.app/",
   },
   {
+    id:8,
     img: "https://i.pinimg.com/originals/87/64/e6/8764e64965d03239eb8d73286ab5ba62.png",
     nombre: "Pagina Web",
     detalles:
@@ -123,6 +131,7 @@ export const listProyectos=[
     catalogo: "https://edtecnology.com/",
   },
   {
+    id:9,
     img: "./img/trabajos/marvelPortada.png",
     nombre: "Api de Marvel",
     detalles:
@@ -131,6 +140,7 @@ export const listProyectos=[
     catalogo: "https://marvel-proyect-api.vercel.app/",
   },
   {
+    id:10,
     img: "https://i.pinimg.com/originals/1f/67/9b/1f679b074f0fbb94e1531362dce7b730.png",
     nombre: "Pagina de Lavanderia",
     detalles:
@@ -139,6 +149,7 @@ export const listProyectos=[
     catalogo: "https://api-lavanderiav1-0-1.vercel.app/",
   },
   {
+    id:11
     img: "https://i.pinimg.com/1200x/d2/fc/1a/d2fc1a92a4ec53257bca689e60f12f14.jpg",
     nombre: "Chat Online",
     detalles:
