@@ -145,6 +145,14 @@ function Proyectos() {
                 <Botones demo={data[8].demo} catalogo={data[8].catalogo} />
               </div>
             </div>
+            <div className="carousel-item">
+              <img src={data[9].img} className="d-block proyectos_img" alt="..." />
+              <div className="carousel-caption d-none d-md-block">
+                <h5>{data[9].nombre}</h5>
+                <p>{data[9].detalles}</p>
+                <Botones demo={data[9].demo} catalogo={data[9].catalogo} />
+              </div>
+            </div>
           </div>
           <button
             className="carousel-control-prev"
