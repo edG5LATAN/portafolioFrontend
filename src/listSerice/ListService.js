@@ -138,12 +138,11 @@ export const listProyectos=[
     demo: "https://api-lavanderiav1-0-1.vercel.app/",
     catalogo: "https://api-lavanderiav1-0-1.vercel.app/",
   },
-  ,
   {
     img: "https://i.pinimg.com/1200x/d2/fc/1a/d2fc1a92a4ec53257bca689e60f12f14.jpg",
     nombre: "Chat Online",
     detalles:
-      "Proyecto de mensajeria online donde podras msj con tus amigos y familiares .",
+      "Proyecto de mensajeria online donde podras compartir msj con tus amigos y familiares .",
     demo: "https://youtu.be/3df7MBJii8Y",
     catalogo: "https://youtu.be/3df7MBJii8Y",
   }
