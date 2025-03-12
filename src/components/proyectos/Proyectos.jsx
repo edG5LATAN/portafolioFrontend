@@ -77,6 +77,12 @@ function Proyectos() {
               data-bs-slide-to="9"
               aria-label="Slide 10"
             ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="10"
+              aria-label="Slide 11"
+            ></button>
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
