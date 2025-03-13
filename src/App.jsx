@@ -9,6 +9,7 @@ import Hobies from './components/hobies/Hobies'
 import Estudios from './components/estudios/Estudios'
 import AsercaDeMi from './components/asercaDeMi/AsercaDeMi'
 import ReactGA from "react-ga4";
+import Proyecto from './components/proyecto/Proyecto'
 
 
 const PageViewTracker = () => {
@@ -35,7 +36,8 @@ function App() {
       <Header />
        <Routes>
        <Route path='/' element={<SobreMi />} />
-       <Route path='/proyectos' element={<Proyectos />} />
+       {/* <Route path='/proyectos' element={<Proyectos />} /> */}
+       <Route path='/proyectos' element={<Proyecto />} />
        <Route path='/hobies' element={<Hobies />} />
        <Route path='/estudios' element={<Estudios />} />
        <Route path='/asercaDeMi' element={<AsercaDeMi />} />

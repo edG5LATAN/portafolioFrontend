@@ -60,7 +60,7 @@ export const listHobies=[
 export const listProyectos=[
   {
     id:1,
-    img: "./img/trabajos/aluraflixImg.png",
+    img: "https://i.pinimg.com/736x/79/d4/a6/79d4a600d74c985eb94f9dace91c836f.jpg",
     nombre: "Alura Flix",
     detalles:
       "Proyecto aluraFlix donde podras guardar todos tus videos favoritos, creado en React y Express NodeJS.",
@@ -78,7 +78,7 @@ export const listProyectos=[
   },
   {
     id:3,
-    img: "./img/trabajos/aluraGeek.png",
+    img: "https://i.pinimg.com/736x/3e/1f/ed/3e1fed743bdfdb2abfd308a815d08e9c.jpg",
     nombre: "Alura Geek",
     detalles:
       "Proyecto de tienda en linea de venta de video juegos para distintas consolas, creado en HTML, CSS, JS, Express.",
@@ -105,7 +105,7 @@ export const listProyectos=[
   },
   {
     id:6,
-    img: "./img/trabajos/encriptarImg.png",
+    img: "https://i.pinimg.com/736x/94/58/fe/9458fe1025ee0bf3ffebc2331bd9e63c.jpg",
     nombre: "Encriptador de Mensajes",
     detalles:
       "Encriptador de mensajes con opcion de compartir y enviar notas encriptadas.",
@@ -132,7 +132,7 @@ export const listProyectos=[
   },
   {
     id:9,
-    img: "./img/trabajos/marvelPortada.png",
+    img: "https://i.pinimg.com/736x/29/f6/1b/29f61bc3ce8f8d4710b9fb6f7bd5d151.jpg",
     nombre: "Api de Marvel",
     detalles:
       "Pagina de informacion de api de Marvel con informacion detallada de cada personaje creado en React.",
@@ -149,7 +149,7 @@ export const listProyectos=[
     catalogo: "https://api-lavanderiav1-0-1.vercel.app/",
   },
   {
-    id:11
+    id:11,
     img: "https://i.pinimg.com/1200x/d2/fc/1a/d2fc1a92a4ec53257bca689e60f12f14.jpg",
     nombre: "Chat Online",
     detalles:

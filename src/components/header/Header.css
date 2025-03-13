@@ -15,7 +15,7 @@
   cursor: pointer;
   transform: scale(1.02);
 }
-@media (max-width:400px) {
+@media (max-width:480px) {
   .header_contenedor{
     overflow: unset;
     height: 100px;
