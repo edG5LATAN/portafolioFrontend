@@ -156,5 +156,14 @@ export const listProyectos=[
       "Proyecto de mensajeria online donde podras compartir msj con tus amigos y familiares .",
     demo: "https://youtu.be/3df7MBJii8Y",
     catalogo: "https://youtu.be/3df7MBJii8Y",
+  },
+  {
+    id:12,
+    img: "https://i.pinimg.com/736x/d9/bf/0f/d9bf0f52c1b94698951df1b7a5bb62ee.jpg",
+    nombre: "Full stack agenda",
+    detalles:
+      "Proyecto de full stack de agenda online con implementacion de seguridad",
+    demo: "https://youtu.be/BdgBXdQkdPs?si=ii5wPZFmKZi5nJjJ",
+    catalogo: "https://youtu.be/BdgBXdQkdPs?si=ii5wPZFmKZi5nJjJ",
   }
 ]
