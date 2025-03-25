@@ -165,5 +165,14 @@ export const listProyectos=[
       "Proyecto de full stack de agenda online con implementacion de seguridad",
     demo: "https://youtu.be/BdgBXdQkdPs?si=ii5wPZFmKZi5nJjJ",
     catalogo: "https://youtu.be/BdgBXdQkdPs?si=ii5wPZFmKZi5nJjJ",
+  },
+  {
+    id:13,
+    img: "https://i.pinimg.com/736x/a2/37/72/a23772a0fa8bc6135a52fc04f2a12ccd.jpg",
+    nombre: "Full stack Reproductor Video",
+    detalles:
+      "Proyecto de full stack de reproductor online con implementacion de seguridad por usuarios",
+    demo: "https://youtu.be/wbemAJVuZeg?si=8I2nakrsIfsyBUFs",
+    catalogo: "https://youtu.be/wbemAJVuZeg?si=8I2nakrsIfsyBUFs",
   }
 ]
