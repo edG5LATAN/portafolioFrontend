@@ -105,7 +105,7 @@ export const listProyectos=[
   },
   {
     id:6,
-    img: "https://i.pinimg.com/736x/94/58/fe/9458fe1025ee0bf3ffebc2331bd9e63c.jpg",
+    img: "https://i.pinimg.com/736x/5d/13/ae/5d13ae290c9c52563a38557b7ae6079b.jpg",
     nombre: "Encriptador de Mensajes",
     detalles:
       "Encriptador de mensajes con opcion de compartir y enviar notas encriptadas.",
