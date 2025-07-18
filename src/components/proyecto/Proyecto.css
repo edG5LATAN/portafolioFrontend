@@ -4,6 +4,7 @@
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    height: 100vh;
 }
 .proyecto_contenedor_imagen{
    width: 700px;

@@ -1,5 +1,6 @@
 .hobies_contenedor{
   text-align: center;
+  height: 100vh;
 }
 .hobies_card{
   width: 250px;

@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url('https://st4.depositphotos.com/1001026/20012/i/450/depositphotos_200128188-stock-photo-vintage-wallpaper-colors.jpg');
+  /* background-image: url('https://st4.depositphotos.com/1001026/20012/i/450/depositphotos_200128188-stock-photo-vintage-wallpaper-colors.jpg'); */
+  background-image: url("../public/img/fondoImagen.webp");
   background-position: center;
   background-size: cover;
 }
