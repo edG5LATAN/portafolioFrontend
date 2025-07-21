@@ -1,0 +1,20 @@
+.hobies_contenedor{
+  text-align: center;
+  min-height: 100vh;
+}
+.hobies_card{
+  width: 250px;
+  margin-bottom: 9px;
+}
+.hobies_card>img{
+  height: 260px;
+}
+.hobies_card:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+@media (max-width:480px) {
+  .hobies_card{
+    width: 190px;
+  }
+}
