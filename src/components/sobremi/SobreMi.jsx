@@ -44,7 +44,7 @@ function SobreMi() {
         </p>
         <div className="sobremi_contendor_iconos_redes">
           <a
-            href="https://github.com/edG5LATAN?tab=repositories"
+            href="https://github.com/edG5LATAN"
             target="_blank"
             data-bs-toggle="tooltip"
             data-bs-placement="top"
