@@ -174,5 +174,14 @@ export const listProyectos=[
       "Proyecto de full stack de reproductor online con implementacion de seguridad por usuarios",
     demo: "https://youtu.be/wbemAJVuZeg?si=8I2nakrsIfsyBUFs",
     catalogo: "https://youtu.be/wbemAJVuZeg?si=8I2nakrsIfsyBUFs",
+  },
+  {
+    id:14,
+    img: "https://i.pinimg.com/736x/04/e3/f9/04e3f98445a6f8715dcb18ae0237d889.jpg",
+    nombre: "Trabajos como Junir Developer",
+    detalles:
+      "Aca te muesto una pagina web donde muestro los proyectos que pasan por cada developer ensus inicios como desarrollador full stack",
+    demo: "https://proyectos-creados.vercel.app/",
+    catalogo: "https://proyectos-creados.vercel.app/",
   }
 ]
