@@ -15,3 +15,6 @@
   transform: scale(1.1);
   cursor: pointer;
 }
+.proyecto_min_botones>a{
+  display: inline-block;
+}

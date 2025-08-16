@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import SobreMi from './components/sobremi/SobreMi'
-import Proyectos from './components/proyectos/Proyectos'
 import Hobies from './components/hobies/Hobies'
 import Estudios from './components/estudios/Estudios'
 import AsercaDeMi from './components/asercaDeMi/AsercaDeMi'
@@ -36,7 +35,6 @@ function App() {
       <Header />
        <Routes>
        <Route path='/' element={<SobreMi />} />
-       {/* <Route path='/proyectos' element={<Proyectos />} /> */}
        <Route path='/proyectos' element={<Proyecto />} />
        <Route path='/hobies' element={<Hobies />} />
        <Route path='/estudios' element={<Estudios />} />

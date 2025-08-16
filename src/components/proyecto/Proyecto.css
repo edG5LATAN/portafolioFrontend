@@ -15,14 +15,15 @@
 }
 .proyecto_botones {
     background-color: rgb(10, 110, 240);
-    color: white;
+    /* color: white; */
     border: none;
     border-radius: 50%;
     padding: 0px;
     cursor: pointer;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 45%;
+    padding: 0;
+    margin: 0;
     z-index: 1;
 }
 
@@ -34,8 +35,22 @@
     right: 10px;
 }
 
+.carousel-caption{
+  background-color: rgba(6, 42, 53, 0.959);
+  border-radius: 20px;
+  h5{
+    text-transform: capitalize;
+  }
+  p{
+    padding: 5px;
+    font-family: monospace;
+    font-size: 18px;
+  }
+}
+
 .proyecto_botones:hover {
-    background-color: rgba(201, 163, 163, 0.8);
+    background-color: blue;
+    /* background-color: rgba(201, 163, 163, 0.8); */
     color: black;
 }
 /* esta es la opcion nuevas */
@@ -49,7 +64,20 @@
     height: 100%;
     object-fit:fill
 }
+.proyectos_escondidos{
+    display: none;
+}
 @media (max-width:480px){
+    .proyecto_contenedor{
+        display: none;
+    }
+    .proyectos_escondidos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
     .proyecto_contenedor{
         display: none;
     }

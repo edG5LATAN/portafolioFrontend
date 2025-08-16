@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProyectoMin.css";
+import { motion } from "framer-motion";
 import ReactGA from "react-ga4";
 
 function ProyectoMin({ info }) {
@@ -19,23 +20,27 @@ function ProyectoMin({ info }) {
       <div className="container p-3 proyecto_min_contenedor_card">
         <h2 className="text-uppercase">{info.nombre}</h2>
         <p>{info.detalles}</p>
-        <div className="d-flex justify-content-around align-items-center">
-          <a
+        <div className="proyecto_min_botones d-flex justify-content-around align-items-center">
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
             onClick={vieronProyectosVersionMobile(info.nombre)}
             href={info.demo}
             target="_blank"
             className="btn bg-dark-subtle"
           >
             Demo
-          </a>
-          <a
+          </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
             onClick={vieronProyectosVersionMobile(info.nombre)}
             href={info.catalogo}
             target="_blank"
             className="btn bg-dark-subtle"
           >
             Catalago
-          </a>
+          </motion.a>
         </div>
       </div>
     </div>
