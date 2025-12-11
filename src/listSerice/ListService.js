@@ -78,12 +78,12 @@ export const listProyectos=[
   },
   {
     id:3,
-    img: "https://i.pinimg.com/736x/3e/1f/ed/3e1fed743bdfdb2abfd308a815d08e9c.jpg",
-    nombre: "Alura Geek",
+    img: "https://i.pinimg.com/736x/9e/5b/85/9e5b851f7e45c917d9beda22efd35106.jpg",
+    nombre: "Game Store",
     detalles:
-      "Proyecto de tienda en linea de venta de video juegos para distintas consolas, creado en HTML, CSS, JS, Express.",
-    demo: "https://www.youtube.com/watch?v=RS3zDOXRXd8",
-    catalogo: "https://edg5latan.github.io/AluraGeek/",
+      "Proyecto de tienda en linea de venta para publico gaming con variedad de accesorios y juegos, creado 100% con React.",
+    demo: "https://proyecto-react-game-shop.vercel.app/",
+    catalogo: "https://proyecto-react-game-shop.vercel.app/",
   },
   {
     id:4,
@@ -185,3 +185,4 @@ export const listProyectos=[
     catalogo: "https://proyectos-creados.vercel.app/",
   }
 ]
+
