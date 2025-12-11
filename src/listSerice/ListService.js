@@ -171,7 +171,7 @@ export const listProyectos=[
     img: "https://i.pinimg.com/736x/a2/37/72/a23772a0fa8bc6135a52fc04f2a12ccd.jpg",
     nombre: "Full stack Reproductor Video",
     detalles:
-      "Proyecto de full stack de reproductor online con implementacion de seguridad por usuarios",
+      "Proyecto de full stack de reproductor online con implementacion de seguridad por usuarios.",
     demo: "https://youtu.be/wbemAJVuZeg?si=8I2nakrsIfsyBUFs",
     catalogo: "https://youtu.be/wbemAJVuZeg?si=8I2nakrsIfsyBUFs",
   },
@@ -180,9 +180,10 @@ export const listProyectos=[
     img: "https://i.pinimg.com/736x/04/e3/f9/04e3f98445a6f8715dcb18ae0237d889.jpg",
     nombre: "Trabajos como Junir Developer",
     detalles:
-      "Aca te muesto una pagina web donde muestro los proyectos que pasan por cada developer ensus inicios como desarrollador full stack",
+      "Pagina web de todos los proyectos realizados en mis inicios como desarrollador full stack.",
     demo: "https://proyectos-creados.vercel.app/",
     catalogo: "https://proyectos-creados.vercel.app/",
   }
 ]
+
 
