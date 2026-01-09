@@ -177,6 +177,15 @@ export const listProyectos=[
   },
   {
     id:14,
+    img: "https://i.pinimg.com/736x/d2/8d/a4/d28da46fb6052fae7c356b876874420d.jpg",
+    nombre: "Frod Game",
+    detalles:
+      "Juego creado en Unity y C# con 5 niveles disfruta y diviertete jugandolo con tus amigos.",
+    demo: "https://edtecnology.itch.io/edtecnologygame",
+    catalogo: "https://edtecnology.itch.io/edtecnologygame",
+  },
+  {
+    id:15,
     img: "https://i.pinimg.com/736x/04/e3/f9/04e3f98445a6f8715dcb18ae0237d889.jpg",
     nombre: "Trabajos como Junir Developer",
     detalles:
@@ -185,5 +194,6 @@ export const listProyectos=[
     catalogo: "https://proyectos-creados.vercel.app/",
   }
 ]
+
 
 
